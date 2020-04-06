@@ -5,8 +5,8 @@ import time
 # Create our class
 class InstagramBot:
 	def __init__(self, username, password):
-		self.username = "___epicphotos___"
-		self.password = "instagram@123"
+		self.username = "username"
+		self.password = "password"
 		self.bot = webdriver.Firefox(executable_path = 'C:/Users/Shailesh Das/Downloads/geckodriver-v0.26.0-win64/geckodriver.exe')	
 
 	# Function will log us in to Instagram
