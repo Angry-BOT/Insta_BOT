@@ -108,8 +108,11 @@ class InstagramBot:
 
 insta = InstagramBot('USERNAME', 'PASSWORD')
 insta.login()
-insta.searchHashtag('portraits')
+#Search your hastags and like
+insta.searchHashtag('portraits') 
+#Argument is for number of Followers of your account will be Selected
 insta.findMyFollowers(5)
+#Argument is for the number of Follower's Followers the bot will Follow
 insta.followTheirFollowers(1)
 
 	
